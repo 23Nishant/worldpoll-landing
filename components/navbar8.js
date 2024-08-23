@@ -9,18 +9,16 @@ const Navbar8 = (props) => {
     <>
       <header className="navbar8-container1">
         <header data-thq="thq-navbar" className="navbar8-navbar-interactive">
-          <img
-            alt={props.logoAlt}
-            src={props.logoSrc}
-            className="navbar8-image1"
-          />
+        <div className="navbar8-logo-text">
+      World Poll
+    </div>
           <div data-thq="thq-navbar-nav" className="navbar8-desktop-menu">
             <nav className="navbar8-links1">
               <a href={props.link1Url}>
                 {props.link1 ?? (
                   <Fragment>
                     <span className="navbar8-text27 thq-body-small thq-link">
-                      Link 1
+                      About
                     </span>
                   </Fragment>
                 )}
@@ -29,7 +27,7 @@ const Navbar8 = (props) => {
                 {props.link2 ?? (
                   <Fragment>
                     <span className="navbar8-text19 thq-body-small thq-link">
-                      Link 2
+                      Contact
                     </span>
                   </Fragment>
                 )}
@@ -42,7 +40,7 @@ const Navbar8 = (props) => {
                 {props.link3 ?? (
                   <Fragment>
                     <span className="navbar8-text23 thq-body-small thq-link">
-                      Link 3
+                      Docs
                     </span>
                   </Fragment>
                 )}
@@ -51,7 +49,7 @@ const Navbar8 = (props) => {
                 onClick={() => setLink5DropdownVisible(!link5DropdownVisible)}
                 className="navbar8-link4-dropdown-trigger"
               >
-                <span>
+                {/* <span>
                   {props.link4 ?? (
                     <Fragment>
                       <span className="navbar8-text21 thq-body-small thq-link">
@@ -59,7 +57,7 @@ const Navbar8 = (props) => {
                       </span>
                     </Fragment>
                   )}
-                </span>
+                </span> */}
                 <div className="navbar8-icon-container1">
                   {link5DropdownVisible && (
                     <div className="navbar8-container2">
@@ -83,7 +81,7 @@ const Navbar8 = (props) => {
                 <span className="thq-body-small">
                   {props.action1 ?? (
                     <Fragment>
-                      <span className="navbar8-text17">Main Action</span>
+                      <span className="navbar8-text17">Log In</span>
                     </Fragment>
                   )}
                 </span>
@@ -92,7 +90,7 @@ const Navbar8 = (props) => {
                 <span className="thq-body-small">
                   {props.action2 ?? (
                     <Fragment>
-                      <span className="navbar8-text15">Secondary Action</span>
+                      <span className="navbar8-text15">Sign Up</span>
                     </Fragment>
                   )}
                 </span>
@@ -123,7 +121,7 @@ const Navbar8 = (props) => {
                   {props.link1 ?? (
                     <Fragment>
                       <span className="navbar8-text27 thq-body-small thq-link">
-                        Link 1
+                        About
                       </span>
                     </Fragment>
                   )}
@@ -132,7 +130,7 @@ const Navbar8 = (props) => {
                   {props.link2 ?? (
                     <Fragment>
                       <span className="navbar8-text19 thq-body-small thq-link">
-                        Link 2
+                        Contact
                       </span>
                     </Fragment>
                   )}
@@ -141,7 +139,7 @@ const Navbar8 = (props) => {
                   {props.link3 ?? (
                     <Fragment>
                       <span className="navbar8-text23 thq-body-small thq-link">
-                        Link 3
+                        Docs
                       </span>
                     </Fragment>
                   )}
@@ -310,7 +308,7 @@ const Navbar8 = (props) => {
                   <span>
                     {props.action1 ?? (
                       <Fragment>
-                        <span className="navbar8-text17">Main Action</span>
+                        <span className="navbar8-text17">Log In</span>
                       </Fragment>
                     )}
                   </span>
@@ -319,7 +317,7 @@ const Navbar8 = (props) => {
                   <span>
                     {props.action2 ?? (
                       <Fragment>
-                        <span className="navbar8-text15">Secondary Action</span>
+                        <span className="navbar8-text15">Sign Up</span>
                       </Fragment>
                     )}
                   </span>
@@ -526,6 +524,12 @@ const Navbar8 = (props) => {
             flex-direction: row;
             justify-content: flex-end;
           }
+            .navbar8-logo-text {
+  font-size: 1.5rem; /* Adjust size as needed */
+  font-weight: bold;
+  color: #000; /* Adjust color as needed */
+}
+
           .navbar8-icon-container1 {
             display: flex;
             align-items: center;

@@ -6,7 +6,6 @@ import Hero17 from '../components/hero17'
 import Features24 from '../components/features24'
 import CTA26 from '../components/cta26'
 import Features25 from '../components/features25'
-import Pricing14 from '../components/pricing14'
 import Steps2 from '../components/steps2'
 import Testimonial17 from '../components/testimonial17'
 import Contact10 from '../components/contact10'
@@ -24,21 +23,21 @@ const Home = (props) => {
           link1={
             <Fragment>
               <span className="home-text100 thq-body-small thq-link">
-                Link 1
+                About
               </span>
             </Fragment>
           }
           link2={
             <Fragment>
               <span className="home-text101 thq-body-small thq-link">
-                Link 2
+                Contact
               </span>
             </Fragment>
           }
           link3={
             <Fragment>
               <span className="home-text102 thq-body-small thq-link">
-                Link 3
+                Docs
               </span>
             </Fragment>
           }
@@ -71,12 +70,12 @@ const Home = (props) => {
           }
           action1={
             <Fragment>
-              <span className="home-text108">Main Action</span>
+              <span className="home-text108">Log In</span>
             </Fragment>
           }
           action2={
             <Fragment>
-              <span className="home-text109">Secondary Action</span>
+              <span className="home-text109">Sign Up</span>
             </Fragment>
           }
           page1Description={
@@ -111,13 +110,13 @@ const Home = (props) => {
         <Hero17
           action1={
             <Fragment>
-              <span className="home-text114 thq-body-small">Main action</span>
+              <span className="home-text114 thq-body-small">Log In</span>
             </Fragment>
           }
           action2={
             <Fragment>
               <span className="home-text115 thq-body-small">
-                Secondary action
+                Sign Up
               </span>
             </Fragment>
           }
@@ -131,7 +130,7 @@ const Home = (props) => {
           heading1={
             <Fragment>
               <span className="home-text117 thq-heading-1">
-                Create Your Poll
+                World Poll
               </span>
             </Fragment>
           }
@@ -214,7 +213,7 @@ const Home = (props) => {
           feature3Title={
             <Fragment>
               <span className="home-text129 thq-heading-2">
-                Shareable Links
+                Share as Frame on Farcaster
               </span>
             </Fragment>
           }
@@ -240,7 +239,7 @@ const Home = (props) => {
             </Fragment>
           }
         ></Features25>
-        <Pricing14
+        {/* <Pricing14
           plan1={
             <Fragment>
               <span className="home-text133 thq-body-large">Basic plan</span>
@@ -568,7 +567,7 @@ const Home = (props) => {
               </span>
             </Fragment>
           }
-        ></Pricing14>
+        ></Pricing14> */}
         <Steps2
           step1Title={
             <Fragment>
@@ -662,13 +661,13 @@ const Home = (props) => {
           content1={
             <Fragment>
               <span className="home-text198 thq-body-small">
-                Read what our users have to say about our polling platform.
+                Read through some use cases for better understanding
               </span>
             </Fragment>
           }
           heading1={
             <Fragment>
-              <span className="home-text199 thq-heading-2">Testimonials</span>
+              <span className="home-text199 thq-heading-2">Use Cases</span>
             </Fragment>
           }
           author1Name={
@@ -727,17 +726,17 @@ const Home = (props) => {
           }
           heading1={
             <Fragment>
-              <span className="home-text209 thq-heading-2">Locations</span>
+              <span className="home-text209 thq-heading-2">Revolutionising Global Polling</span>
             </Fragment>
           }
           location1={
             <Fragment>
-              <span className="home-text210 thq-heading-3">Bucharest</span>
+              <span className="home-text210 thq-heading-3">Content 1</span>
             </Fragment>
           }
           location2={
             <Fragment>
-              <span className="home-text211 thq-heading-3">Cluj - Napoca</span>
+              <span className="home-text211 thq-heading-3">Content 2</span>
             </Fragment>
           }
           location1Description={

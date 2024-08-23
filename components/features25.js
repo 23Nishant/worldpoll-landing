@@ -83,7 +83,7 @@ const Features25 = (props) => {
                   {props.feature3Title ?? (
                     <Fragment>
                       <h2 className="features25-text1 thq-heading-2">
-                        Shareable Links
+                        Share as Frame on Farcaster
                       </h2>
                     </Fragment>
                   )}
@@ -295,10 +295,10 @@ const Features25 = (props) => {
 }
 
 Features25.defaultProps = {
-  feature3ImgAlt: 'Image for Shareable Links',
+  feature3ImgAlt: 'Image for Share as Frame on Farcaster',
   feature3Title: undefined,
   feature1ImgSrc:
-    'https://images.unsplash.com/photo-1642498994108-9fa7a119ed1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyNDMzNjc1M3w&ixlib=rb-4.0.3&q=80&w=1080',
+    'https://vui.unsplash.com/resize?height=256&quality=60&type=auto&url=https%3A%2F%2Fsearched-images.s3.us-west-2.amazonaws.com%2F1311e5b5-bc48-441b-a99a-f7393d196ff6%3FX-Amz-Algorithm%3DAWS4-HMAC-SHA256%26X-Amz-Credential%3DAKIAQ4GRIA4QSGPFMIVZ%252F20240823%252Fus-west-2%252Fs3%252Faws4_request%26X-Amz-Date%3D20240823T223832Z%26X-Amz-Expires%3D86400%26X-Amz-SignedHeaders%3Dhost%26X-Amz-Signature%3Df6229421af2215053df1ae5734840d4fd01b45818e4600abc3d9af2d564a927e&sign=J4Qd5-QaPzMqDjTP8jtPmAtR7dU8OdHAy2ROso6C2B8',
   feature2Description: undefined,
   feature1Title: undefined,
   feature2Title: undefined,

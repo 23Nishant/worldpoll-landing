@@ -13,7 +13,7 @@ const Hero17 = (props) => {
               {props.heading1 ?? (
                 <Fragment>
                   <h1 className="hero17-text7 thq-heading-1">
-                    Create Your Poll
+                    World Poll
                   </h1>
                 </Fragment>
               )}
@@ -34,7 +34,7 @@ const Hero17 = (props) => {
                 {props.action1 ?? (
                   <Fragment>
                     <span className="hero17-text8 thq-body-small">
-                      Main action
+                      Log In
                     </span>
                   </Fragment>
                 )}
@@ -45,7 +45,7 @@ const Hero17 = (props) => {
                 {props.action2 ?? (
                   <Fragment>
                     <span className="hero17-text6 thq-body-small">
-                      Secondary action
+                      Sign Up
                     </span>
                   </Fragment>
                 )}
@@ -53,7 +53,7 @@ const Hero17 = (props) => {
             </button>
           </div>
         </div>
-        <div className="hero17-content2">
+        {/* <div className="hero17-content2">
           <div className="hero17-row-container1 thq-animated-group-container-horizontal thq-mask-image-horizontal">
             <div className="thq-animated-group-horizontal">
               <img
@@ -186,7 +186,7 @@ const Hero17 = (props) => {
               />
             </div>
           </div>
-        </div>
+        </div> */}
         <div>
           <div className="hero17-container2">
             <Script

@@ -12,7 +12,7 @@ const Testimonial17 = (props) => {
               {props.heading1 ?? (
                 <Fragment>
                   <h2 className="testimonial17-text34 thq-heading-2">
-                    Testimonials
+                    Use Cases
                   </h2>
                 </Fragment>
               )}
@@ -21,198 +21,123 @@ const Testimonial17 = (props) => {
               {props.content1 ?? (
                 <Fragment>
                   <span className="testimonial17-text33 thq-body-small">
-                    Read what our users have to say about our polling platform.
+                    Read through some use cases for better understanding
                   </span>
                 </Fragment>
               )}
             </span>
+            </div>
+<div className="thq-grid-2">
+  <div className="thq-animated-card-bg-2">
+    <div className="thq-animated-card-bg-1">
+      <div
+        data-animated="true"
+        className="thq-card testimonial17-card1"
+      >
+        <div className="testimonial17-container12">
+          <div className="testimonial17-container13">
+            <strong>
+              <Fragment>
+                <strong className="testimonial17-text29 thq-body-large">
+                  Use Case 1
+                </strong>
+              </Fragment>
+            </strong>
           </div>
-          <div className="thq-grid-2">
-            <div className="thq-animated-card-bg-2">
-              <div className="thq-animated-card-bg-1">
-                <div
-                  data-animated="true"
-                  className="thq-card testimonial17-card1"
-                >
-                  <div className="testimonial17-container12">
-                    <img
-                      alt={props.author1Alt}
-                      src={props.author1Src}
-                      className="testimonial17-image1"
-                    />
-                    <div className="testimonial17-container13">
-                      <strong>
-                        {props.author1Name ?? (
-                          <Fragment>
-                            <strong className="testimonial17-text29 thq-body-large">
-                              John Doe
-                            </strong>
-                          </Fragment>
-                        )}
-                      </strong>
-                      <span>
-                        {props.author1Position ?? (
-                          <Fragment>
-                            <span className="testimonial17-text26 thq-body-small">
-                              Marketing Manager
-                            </span>
-                          </Fragment>
-                        )}
-                      </span>
-                    </div>
-                  </div>
-                  <span>
-                    {props.review1 ?? (
-                      <Fragment>
-                        <span className="testimonial17-text30 thq-body-small">
-                          Great tool for gathering opinions quickly and
-                          efficiently.
-                        </span>
-                      </Fragment>
-                    )}
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div className="thq-animated-card-bg-2">
-              <div className="thq-animated-card-bg-1">
-                <div
-                  data-animated="true"
-                  className="thq-card testimonial17-card2"
-                >
-                  <div className="testimonial17-container14">
-                    <img
-                      alt={props.author2Alt}
-                      src={props.author2Src}
-                      className="testimonial17-image2"
-                    />
-                    <div className="testimonial17-container15">
-                      <strong>
-                        {props.author2Name ?? (
-                          <Fragment>
-                            <strong className="testimonial17-text25 thq-body-large">
-                              Jane Smith
-                            </strong>
-                          </Fragment>
-                        )}
-                      </strong>
-                      <span>
-                        {props.author2Position ?? (
-                          <Fragment>
-                            <span className="testimonial17-text37 thq-body-small">
-                              Product Designer
-                            </span>
-                          </Fragment>
-                        )}
-                      </span>
-                    </div>
-                  </div>
-                  <span>
-                    {props.review2 ?? (
-                      <Fragment>
-                        <span className="testimonial17-text28 thq-body-small">
-                          Easy to use interface and helpful for decision-making
-                          processes.
-                        </span>
-                      </Fragment>
-                    )}
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div className="thq-animated-card-bg-2">
-              <div className="thq-animated-card-bg-1">
-                <div
-                  data-animated="true"
-                  className="thq-card testimonial17-card3"
-                >
-                  <div className="testimonial17-container16">
-                    <img
-                      alt={props.author3Alt}
-                      src={props.author3Src}
-                      className="testimonial17-image3"
-                    />
-                    <div className="testimonial17-container17">
-                      <strong>
-                        {props.author3Name ?? (
-                          <Fragment>
-                            <strong className="testimonial17-text24 thq-body-large">
-                              Alice Johnson
-                            </strong>
-                          </Fragment>
-                        )}
-                      </strong>
-                      <span>
-                        {props.author3Position ?? (
-                          <Fragment>
-                            <span className="testimonial17-text36 thq-body-small">
-                              HR Specialist
-                            </span>
-                          </Fragment>
-                        )}
-                      </span>
-                    </div>
-                  </div>
-                  <span>
-                    {props.review3 ?? (
-                      <Fragment>
-                        <span className="testimonial17-text27 thq-body-small">
-                          Polls have improved our team communication and
-                          engagement.
-                        </span>
-                      </Fragment>
-                    )}
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div className="thq-animated-card-bg-2">
-              <div className="thq-animated-card-bg-1">
-                <div
-                  data-animated="true"
-                  className="thq-card testimonial17-card4"
-                >
-                  <div className="testimonial17-container18">
-                    <img
-                      alt={props.author4Alt}
-                      src={props.author4Src}
-                      className="testimonial17-image4"
-                    />
-                    <div className="testimonial17-container19">
-                      <strong>
-                        {props.author4Name ?? (
-                          <Fragment>
-                            <strong className="testimonial17-text35 thq-body-large">
-                              Michael Brown
-                            </strong>
-                          </Fragment>
-                        )}
-                      </strong>
-                      <span>
-                        {props.author4Position ?? (
-                          <Fragment>
-                            <span className="testimonial17-text31 thq-body-small">
-                              IT Manager
-                            </span>
-                          </Fragment>
-                        )}
-                      </span>
-                    </div>
-                  </div>
-                  <span>
-                    {props.review4 ?? (
-                      <Fragment>
-                        <span className="testimonial17-text32 thq-body-small">
-                          Highly recommend this platform for collecting feedback
-                          from employees.
-                        </span>
-                      </Fragment>
-                    )}
-                  </span>
-                </div>
-              </div>
-            </div>
+        </div>
+        <span>
+          <Fragment>
+            <span className="testimonial17-text30 thq-body-small">
+              Streamline internal decision-making by collecting quick feedback from team members.
+            </span>
+          </Fragment>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div className="thq-animated-card-bg-2">
+    <div className="thq-animated-card-bg-1">
+      <div
+        data-animated="true"
+        className="thq-card testimonial17-card2"
+      >
+        <div className="testimonial17-container14">
+          <div className="testimonial17-container15">
+            <strong>
+              <Fragment>
+                <strong className="testimonial17-text25 thq-body-large">
+                  Use Case 2
+                </strong>
+              </Fragment>
+            </strong>
           </div>
+        </div>
+        <span>
+          <Fragment>
+            <span className="testimonial17-text28 thq-body-small">
+              Gather real-time opinions on product features to guide development priorities.
+            </span>
+          </Fragment>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div className="thq-animated-card-bg-2">
+    <div className="thq-animated-card-bg-1">
+      <div
+        data-animated="true"
+        className="thq-card testimonial17-card3"
+      >
+        <div className="testimonial17-container16">
+          <div className="testimonial17-container17">
+            <strong>
+              <Fragment>
+                <strong className="testimonial17-text24 thq-body-large">
+                  Use Case 3
+                </strong>
+              </Fragment>
+            </strong>
+          </div>
+        </div>
+        <span>
+          <Fragment>
+            <span className="testimonial17-text27 thq-body-small">
+              Enhance community engagement by conducting polls on various topics of interest.
+            </span>
+          </Fragment>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div className="thq-animated-card-bg-2">
+    <div className="thq-animated-card-bg-1">
+      <div
+        data-animated="true"
+        className="thq-card testimonial17-card4"
+      >
+        <div className="testimonial17-container18">
+          <div className="testimonial17-container19">
+            <strong>
+              <Fragment>
+                <strong className="testimonial17-text35 thq-body-large">
+                  Use Case 4
+                </strong>
+              </Fragment>
+            </strong>
+          </div>
+        </div>
+        <span>
+          <Fragment>
+            <span className="testimonial17-text32 thq-body-small">
+              Collect anonymous feedback from employees to improve workplace culture and processes.
+            </span>
+          </Fragment>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
         </div>
       </div>
       <style jsx>

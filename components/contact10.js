@@ -41,7 +41,7 @@ const Contact10 = (props) => {
                 {props.location1 ?? (
                   <Fragment>
                     <h3 className="contact10-text21 thq-heading-3">
-                      Bucharest
+                      Content 1
                     </h3>
                   </Fragment>
                 )}
@@ -77,7 +77,7 @@ const Contact10 = (props) => {
                 {props.location2 ?? (
                   <Fragment>
                     <h3 className="contact10-text18 thq-heading-3">
-                      Cluj - Napoca
+                      Content 2
                     </h3>
                   </Fragment>
                 )}

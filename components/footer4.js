@@ -9,11 +9,7 @@ const Footer4 = (props) => {
         <div className="footer4-max-width thq-section-max-width">
           <div className="footer4-content">
             <div className="footer4-logo1">
-              <img
-                alt={props.logoAlt}
-                src={props.logoSrc}
-                className="footer4-logo2"
-              />
+              <span className="footer4-logo-text">World Poll</span>
             </div>
             <div className="footer4-links">
               <a
@@ -85,7 +81,7 @@ const Footer4 = (props) => {
             <div className="thq-divider-horizontal"></div>
             <div className="footer4-row">
               <div className="footer4-container">
-                <span className="thq-body-small">© 2024 TeleportHQ</span>
+                <span className="thq-body-small">© 2024 World Poll</span>
               </div>
               <div className="footer4-footer-links">
                 <span>
@@ -152,8 +148,10 @@ const Footer4 = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .footer4-logo2 {
-            height: 2rem;
+          .footer4-logo-text {
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--dl-color-theme-neutral-dark);
           }
           .footer4-links {
             gap: var(--dl-space-space-twounits);
@@ -241,8 +239,6 @@ Footer4.defaultProps = {
   link5: undefined,
   link2: undefined,
   link3: undefined,
-  logoAlt: 'Company Logo',
-  logoSrc: 'https://presentation-website-assets.teleporthq.io/logos/logo.png',
   termsLink: undefined,
   cookiesLink: undefined,
   privacyLink: undefined,
@@ -254,8 +250,6 @@ Footer4.propTypes = {
   link5: PropTypes.element,
   link2: PropTypes.element,
   link3: PropTypes.element,
-  logoAlt: PropTypes.string,
-  logoSrc: PropTypes.string,
   termsLink: PropTypes.element,
   cookiesLink: PropTypes.element,
   privacyLink: PropTypes.element,

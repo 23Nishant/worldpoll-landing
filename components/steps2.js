@@ -10,7 +10,7 @@ const Steps2 = (props) => {
           <div className="steps2-container2 thq-grid-2">
             <div className="steps2-section-header">
               <h2 className="thq-heading-2">
-                Discover the Power of Our Products
+                Powerful & Easy to Use
               </h2>
               <p className="thq-body-large">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -20,7 +20,7 @@ const Steps2 = (props) => {
               </p>
               <div className="steps2-actions">
                 <button className="thq-button-filled thq-button-animated steps2-button">
-                  <span className="thq-body-small">Main action</span>
+                  <span className="thq-body-small">Log In</span>
                 </button>
               </div>
             </div>
