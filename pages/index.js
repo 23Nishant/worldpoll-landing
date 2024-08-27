@@ -16,8 +16,8 @@ const Home = (props) => {
     <>
       <div className="home-container">
         <Head>
-          <title>Constant Keen Finch</title>
-          <meta property="og:title" content="Constant Keen Finch" />
+          <title>World Poll Landing</title>
+          <meta property="og:title" content="World Poll Landing" />
         </Head>
         <Navbar8
           link1={
